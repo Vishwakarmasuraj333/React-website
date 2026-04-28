@@ -1,5 +1,14 @@
+
 {
-  "name": "react-project",
+  "homepage": "https://Vishwakarmasuraj333.github.io/react-website",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}{
+  "name": "rounting",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,18 +16,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.2.2",
+    "@tailwindcss/vite": "^4.2.4",
+    "framer-motion": "^12.38.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-icons": "^5.6.0",
-    "react-slick": "^0.31.0",
-    "slick-carousel": "^1.8.1",
-    "tailwindcss": "^4.2.2"
+    "react-router": "^7.14.2",
+    "react-router-dom": "^7.14.2",
+    "react-simple-typewriter": "^5.0.1",
+    "react-typewriter": "^0.4.1",
+    "tailwindcss": "^4.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -28,8 +37,8 @@
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
-    "vite": "^7.3.1",
-    "gh-pages": "^6.1.1"
+    "vite": "^7.3.1"
   }
 }
